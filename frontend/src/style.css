@@ -1,0 +1,69 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.App {
+  height: 100vh;
+  padding: 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  gap: 40px;
+}
+
+.book {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #d8d1d1;
+  border-radius: 8px;
+  padding: 12px 12px 20px 12px;
+
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  background-color: rgb(158, 235, 210);
+}
+
+.delete {
+  padding: 5px 10px;
+  background-color: crimson;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+.update {
+  padding: 7px 11px;
+  background-color:rgb(79, 194, 79);
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  text-decoration: none
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  width: 250px;
+  pad: 10px;
+  border: 1px solid gray;
+}
+
